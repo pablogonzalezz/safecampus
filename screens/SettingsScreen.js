@@ -95,11 +95,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   
-  textInput:{
-    paddingHorizontal: 10,
-    paddingVertical: 10
-  },
-
   containerCard:{
     flex: 1,
     flexDirection: "row",
@@ -157,100 +152,5 @@ const styles = StyleSheet.create({
     color: '#A4A4A4',
     textAlign: 'right',
     paddingHorizontal:10,
-  },
-
-
-  textoCard:{
-    fontSize: 18,
-    color: '#A4A4A4',
-    paddingHorizontal:15,
-    textAlign: 'right',
-    flex:1
-  },
-
-  textoTransacoes:{
-    flex:1,
-    fontSize: 14,
-    color: '#A4A4A4',
-    textAlign: 'right',
-    paddingRight: 20,
-    paddingVertical:10,
-  },
-
-  flexContainer:{
-    flex:1.5, 
-    flexDirection:'column', 
-    justifyContent:'center', 
-  },
-
-  layoutNumeroSaldo:{
-    height:70, 
-    backgroundColor: '#0B2F3A', 
-    borderRadius:10
-  },
-
-  flexContainerCenter:{
-    flex:1, 
-    flexDirection:'column', 
-    justifyContent:'flex-start', 
-    alignItems:'center',
-  },
-
-  layoutSaldo:{
-    backgroundColor: '#0A1B2A', 
-    borderRadius: 12,
-  },
-
-imagemMoeda:{
-  resizeMode:'cover',
-},
-
-  imagemMoedaContainer:{
-    height: "100%",
-  },
-
-  textoSaldo: {
-    fontSize: 18,
-    color: '#A4A4A4',
-    lineHeight: 24,
-    textAlign: 'center',
-    paddingVertical: 10,
-  },
-
-  saldoDinheiro: {
-    fontSize: 35,
-    color: '#ffff',
-    textAlign: 'center',
-    paddingHorizontal: 12,
-    paddingVertical: 12,
-
-  },
-
-  tituloCarteira: {
-    fontSize: 24,
-    color: '#ffff',
-    lineHeight: 24,
-    textAlign: 'auto',
-    paddingLeft: 25,
-  },
-
-  icon: {
-    color: '#ffff',
-    fontSize: 30,
-    paddingTop: '5%',
-    paddingLeft: '80%',
-    textAlign: 'auto',
-    lineHeight: 24,
-
-  },
-
-  botoes: {
-    paddingHorizontal: 10,
-    paddingVertical: 20,
-    width: 150,
-  },
-
-  botaoPagar: {
-    width: 280,
-  },
+  }
 });
